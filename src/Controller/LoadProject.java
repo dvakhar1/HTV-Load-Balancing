@@ -41,12 +41,12 @@ public class LoadProject extends HttpServlet {
 		try{
 			
 			
-			String accessKey = "AKIAI7RWKS22D3PZBTTQ";
-			String secretKey = "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";
+			String accessKey = "";
+			String secretKey = "";
 			Regions regions = Regions.AP_SOUTHEAST_1;
 			
 			Long refreshTime = 1L; // 1 Minute
-			InstanceController.KeyRepoPath = "/run/media/mishal/Data/My Data/Accounts/AWS/Harshal Sir/Server/";
+			InstanceController.KeyRepoPath = "";
 			InstanceController.system_type = "linux"; //windows or linux
 			
 			
